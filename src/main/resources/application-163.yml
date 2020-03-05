@@ -1,0 +1,17 @@
+#163y邮箱配置
+spring:
+  mail:
+    # 163
+    host: smtp.163.com
+    port:
+    username: 18720712554@163.com
+    password: wbf198723
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.socketFactory.port: 465
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+      mail.smtp.socketFactory.fallback: false
